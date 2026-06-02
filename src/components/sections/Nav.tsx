@@ -67,7 +67,7 @@ export default function Nav() {
       >
         <div
           className={cn(
-            "relative flex w-full items-center justify-center rounded-full px-5 py-3 transition-all duration-500 lg:justify-between",
+            "flex w-full items-center justify-between rounded-full px-5 py-3 transition-all duration-500",
             scrolled
               ? "glass-strong"
               : "border border-transparent bg-transparent"
@@ -93,8 +93,7 @@ export default function Nav() {
             ))}
           </nav>
 
-          <div className="absolute right-5 top-1/2 flex -translate-y-1/2 items-center gap-3 lg:static lg:translate-y-0">
-
+          <div className="flex items-center gap-3">
             <div className="hidden sm:block">
               <MagneticButton href="#contact" variant="primary" className="px-5 py-2.5 text-xs">
                 Start a Project
