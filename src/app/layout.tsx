@@ -25,10 +25,6 @@ export const metadata: Metadata = {
   },
   description:
     "A creative-technical studio under one roof. Australian-based photography and videography. Web development, AI integration and IT delivered worldwide.",
-  icons: {
-    icon: "/brand/fp-mark.png",
-    apple: "/brand/fp-mark.png",
-  },
   keywords: [
     "photography",
     "videography",
