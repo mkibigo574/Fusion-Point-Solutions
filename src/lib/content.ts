@@ -384,9 +384,14 @@ export const TESTIMONIALS = [
 
 export const STUDIO = {
   email: "hello@fusionpoint.studio",
+  phone: "0417 066 093",
+  phoneHref: "tel:+61417066093",
   location: "Darwin, Australia · web & IT worldwide",
   socials: [
-    { label: "Instagram", href: "https://instagram.com" },
+    {
+      label: "Instagram",
+      href: "https://www.instagram.com/fusion.point.solutions",
+    },
     { label: "Behance", href: "https://behance.net" },
     { label: "LinkedIn", href: "https://linkedin.com" },
     { label: "Vimeo", href: "https://vimeo.com" },

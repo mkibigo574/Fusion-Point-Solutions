@@ -51,6 +51,14 @@ export default function Contact() {
                 {STUDIO.email}
               </a>
             </Detail>
+            <Detail label="Phone">
+              <a
+                href={STUDIO.phoneHref}
+                className="text-ink transition-colors hover:text-accent-2"
+              >
+                {STUDIO.phone}
+              </a>
+            </Detail>
             <Detail label="Studio">
               <span className="text-ink">{STUDIO.location}</span>
             </Detail>

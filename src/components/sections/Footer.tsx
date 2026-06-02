@@ -21,6 +21,20 @@ export default function Footer() {
               A creative-technical studio. Australian-based photo &amp; video,
               with web &amp; IT delivered worldwide.
             </p>
+            <div className="mt-5 space-y-1 text-sm">
+              <a
+                href={`mailto:${STUDIO.email}`}
+                className="block text-ink-muted transition-colors hover:text-ink"
+              >
+                {STUDIO.email}
+              </a>
+              <a
+                href={STUDIO.phoneHref}
+                className="block text-ink-muted transition-colors hover:text-ink"
+              >
+                {STUDIO.phone}
+              </a>
+            </div>
           </div>
 
           {/* Nav */}
