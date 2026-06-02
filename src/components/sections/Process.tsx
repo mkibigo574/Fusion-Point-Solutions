@@ -19,11 +19,16 @@ export default function Process() {
       <div className="mt-8 hairline" />
 
       <RevealGroup
-        className="mt-14 grid gap-5 sm:grid-cols-2 lg:grid-cols-4"
+        className="mt-14 flex snap-x snap-mandatory gap-5 overflow-x-auto pb-4 [-ms-overflow-style:none] [scrollbar-width:none] [&::-webkit-scrollbar]:hidden lg:grid lg:grid-cols-4 lg:overflow-visible lg:pb-0"
         stagger={0.12}
       >
         {PROCESS.map((p) => (
-          <RevealItem key={p.step} from="bottom" distance={64}>
+          <RevealItem
+            key={p.step}
+            from="bottom"
+            distance={64}
+            className="w-[80%] shrink-0 snap-start sm:w-[46%] lg:w-auto"
+          >
             <GlassPanel className="group relative h-full overflow-hidden p-7">
               <div
                 className="pointer-events-none absolute -right-10 -top-10 h-28 w-28 rounded-full bg-accent/10 blur-2xl transition-opacity duration-500 group-hover:opacity-100 opacity-0"
