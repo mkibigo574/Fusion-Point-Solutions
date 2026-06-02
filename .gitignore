@@ -39,3 +39,11 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# local reference material & scratch assets (not part of the app)
+/Fusion Point copy.pdf
+/Photography & Portfolio Web Design Inspiration.jpg
+/Transactions*.csv
+/_logo_*.png
+/_mark_test.png
+/_mark_test.svg
