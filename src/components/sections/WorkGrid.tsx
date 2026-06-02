@@ -83,7 +83,7 @@ export default function WorkGrid({
       <LayoutGroup>
         <motion.div
           layout
-          className="mt-12 grid auto-rows-[260px] grid-cols-4 gap-5"
+          className="mt-12 grid auto-rows-[220px] grid-cols-2 gap-4 sm:gap-5 lg:grid-cols-4 lg:auto-rows-[260px]"
         >
           <AnimatePresence mode="popLayout">
             {items.map((item, i) => (
@@ -110,7 +110,7 @@ export default function WorkGrid({
                   src={item.image}
                   alt={item.alt}
                   fill
-                  sizes="25vw"
+                  sizes="(max-width: 1024px) 50vw, 25vw"
                   className={cn(
                     "object-cover transition-transform duration-700 ease-out group-hover:scale-110",
                     // Website screenshots read best anchored to the top
